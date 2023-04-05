@@ -32,6 +32,10 @@ Janelia mouse joystick controller for the Dudman lab experiments.
 #+NAME: references
 #+BEGIN_SRC text :exports none :noweb yes
 https://www.kicad.org/
+https://www.transducertechniques.com/rts-torque-sensor.aspx
+https://placidindustries.com/products/brakes/magnetic-particle-brakes/magnetic-particle-brake-b5z/
+https://www.linengineering.com/products/stepper-motors/hybrid-stepper-motors/208-series/208-13-01/WO-208-13-01D
+https://www.newark.com/broadcom-limited/hedr-5421-ep111/encoder-incremental-2-ch/dp/58Y4773
 #+END_SRC
 
 #+NAME: creation-date
@@ -269,6 +273,46 @@ return bom
 
 | Item | Description                      |        Manufacturer Part Number | Manufacturer       | Quantity |
 |------+----------------------------------+---------------------------------+--------------------+----------|
+
+* Notes
+
+** Actuators
+
+*** Stepper Motors
+
+**** Big
+
+SOYO SY42STH38-1684A
+
+**** Little
+
+Lin Engineering WO-208-13-01D-RO
+
+*** Brake
+
+Placid Industries B5Z-24-1R Magnetic Particle Brake
+
+- Current control 0-0.049 A at 24 V
+
+** Sensors
+
+*** Torque Sensor
+
+Transducer Techniques RTS-5
+
+- wheatstone bridge
+
+*** Encoder
+
+Newark HEDR-5421-EP111
+
+- Two channel quadrature
+
+*** Limit Switches
+
+MiSUMi D2F-01FL
+
+- Normally open or normally closed
 
 * Development
 

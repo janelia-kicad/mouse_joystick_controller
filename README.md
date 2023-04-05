@@ -1,15 +1,16 @@
-- [About](#org922585e)
-- [Images](#org6002fee)
-- [Schematic](#orge2a122c)
-- [PCB](#orgf4728b8)
-- [Bill of Materials](#orgd620f33)
-- [Development](#org24aa909)
+- [About](#org6b83339)
+- [Images](#org48d42ac)
+- [Schematic](#orga9eaddd)
+- [PCB](#orga905c0e)
+- [Bill of Materials](#org6486593)
+- [Notes](#org1d60145)
+- [Development](#org51e40ba)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org922585e"></a>
+<a id="org6b83339"></a>
 
 # About
 
@@ -27,25 +28,29 @@
 - Copyright: 2023 Howard Hughes Medical Institute
 - References:
   - https://www.kicad.org/
+  - https://www.transducertechniques.com/rts-torque-sensor.aspx
+  - https://placidindustries.com/products/brakes/magnetic-particle-brakes/magnetic-particle-brake-b5z/
+  - https://www.linengineering.com/products/stepper-motors/hybrid-stepper-motors/208-series/208-13-01/WO-208-13-01D
+  - https://www.newark.com/broadcom-limited/hedr-5421-ep111/encoder-incremental-2-ch/dp/58Y4773
 ```
 
 
-<a id="org6002fee"></a>
+<a id="org48d42ac"></a>
 
 # Images
 
 
-<a id="orge2a122c"></a>
+<a id="orga9eaddd"></a>
 
 # Schematic
 
 
-<a id="orgf4728b8"></a>
+<a id="orga905c0e"></a>
 
 # PCB
 
 
-<a id="orgd620f33"></a>
+<a id="org6486593"></a>
 
 # Bill of Materials
 
@@ -63,7 +68,57 @@
 |---- |----------- |------------------------ |------------ |-------- |
 
 
-<a id="org24aa909"></a>
+<a id="org1d60145"></a>
+
+# Notes
+
+
+## Actuators
+
+
+### Stepper Motors
+
+1.  Big
+
+    SOYO SY42STH38-1684A
+
+2.  Little
+
+    Lin Engineering WO-208-13-01D-RO
+
+
+### Brake
+
+Placid Industries B5Z-24-1R Magnetic Particle Brake
+
+-   Current control 0-0.049 A at 24 V
+
+
+## Sensors
+
+
+### Torque Sensor
+
+Transducer Techniques RTS-5
+
+-   wheatstone bridge
+
+
+### Encoder
+
+Newark HEDR-5421-EP111
+
+-   Two channel quadrature
+
+
+### Limit Switches
+
+MiSUMi D2F-01FL
+
+-   Normally open or normally closed
+
+
+<a id="org51e40ba"></a>
 
 # Development
 
