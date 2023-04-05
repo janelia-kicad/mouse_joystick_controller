@@ -1,15 +1,15 @@
-- [About](#orge221d9f)
-- [Images](#org4449446)
-- [Schematic](#org65afea0)
-- [PCB](#org56fa9d5)
-- [Bill of Materials](#org1a3f580)
-- [Development](#org75c93c9)
+- [About](#org922585e)
+- [Images](#org6002fee)
+- [Schematic](#orge2a122c)
+- [PCB](#orgf4728b8)
+- [Bill of Materials](#orgd620f33)
+- [Development](#org24aa909)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orge221d9f"></a>
+<a id="org922585e"></a>
 
 # About
 
@@ -20,32 +20,32 @@
 - Kicad Version: 7.0.1
 - Release Date: 2023-04-05
 - Creation Date: 2017-08-14
-- License: GPL-3.0
-- URL: https://github.com/peterpolidoro/mouse_joystick_controller
+- License: BSD-3-Clause
+- URL: https://github.com/janelia-kicad/mouse_joystick_controller
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
-- Copyright: 2023 Peter Polidoro
+- Copyright: 2023 Howard Hughes Medical Institute
 - References:
   - https://www.kicad.org/
 ```
 
 
-<a id="org4449446"></a>
+<a id="org6002fee"></a>
 
 # Images
 
 
-<a id="org65afea0"></a>
+<a id="orge2a122c"></a>
 
 # Schematic
 
 
-<a id="org56fa9d5"></a>
+<a id="orgf4728b8"></a>
 
 # PCB
 
 
-<a id="org1a3f580"></a>
+<a id="orgd620f33"></a>
 
 # Bill of Materials
 
@@ -63,7 +63,7 @@
 |---- |----------- |------------------------ |------------ |-------- |
 
 
-<a id="org75c93c9"></a>
+<a id="org24aa909"></a>
 
 # Development
 
