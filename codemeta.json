@@ -1,0 +1,26 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "codeRepository": "https://github.com/peterpolidoro/mouse_joystick_controller",
+    "dateCreated": "2017-08-14",
+    "dateModified": "2023-04-05",
+    "name": "mouse_joystick_controller",
+    "version": "2.0",
+    "description": "Janelia mouse joystick controller for the Dudman lab experiments.",
+    "programmingLanguage": [
+        "KiCad"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Polidoro",
+            "email": "peter@polidoro.io",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Peter Polidoro"
+            }
+        }
+    ]
+}

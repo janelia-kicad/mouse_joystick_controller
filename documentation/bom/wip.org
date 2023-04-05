@@ -1,0 +1,6 @@
+| Item | Description                      | Manufacturer Part Number | Manufacturer |
+|------+----------------------------------+--------------------------+--------------|
+|    1 | TERM BLOCK HDR 4POS VERT 3.5MM   |               0395011004 | Molex        |
+|    2 | TERM BLOCK PLUG 4POS 3.5MM       |               0395032004 | Molex        |
+|    3 | TERM BLK 4POS SIDE ENT 3.5MM PCB |               0393570004 | Molex        |
+|    4 |                                  |                          |              |
