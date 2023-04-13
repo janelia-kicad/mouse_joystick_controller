@@ -1,16 +1,16 @@
-- [About](#org6b83339)
-- [Images](#org48d42ac)
-- [Schematic](#orga9eaddd)
-- [PCB](#orga905c0e)
-- [Bill of Materials](#org6486593)
-- [Notes](#org1d60145)
-- [Development](#org51e40ba)
+- [About](#org0fe81aa)
+- [Images](#org7261216)
+- [Schematic](#org98852f4)
+- [PCB](#orgfe9cefc)
+- [Bill of Materials](#orga00b9d5)
+- [Notes](#org252d51a)
+- [Development](#orgeca6f45)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org6b83339"></a>
+<a id="org0fe81aa"></a>
 
 # About
 
@@ -19,7 +19,7 @@
 - Description: Janelia mouse joystick controller for the Dudman lab experiments.
 - Version: 2.0
 - Kicad Version: 7.0.1
-- Release Date: 2023-04-05
+- Release Date: 2023-04-13
 - Creation Date: 2017-08-14
 - License: BSD-3-Clause
 - URL: https://github.com/janelia-kicad/mouse_joystick_controller
@@ -30,27 +30,28 @@
   - https://www.kicad.org/
   - https://www.transducertechniques.com/rts-torque-sensor.aspx
   - https://placidindustries.com/products/brakes/magnetic-particle-brakes/magnetic-particle-brake-b5z/
-  - https://www.linengineering.com/products/stepper-motors/hybrid-stepper-motors/208-series/208-13-01/WO-208-13-01D
   - https://www.newark.com/broadcom-limited/hedr-5421-ep111/encoder-incremental-2-ch/dp/58Y4773
+  - https://www.linengineering.com/products/stepper-motors/hybrid-stepper-motors/208-series/208-13-01/WO-208-13-01D
+  - https://www.pololu.com/product/2267
 ```
 
 
-<a id="org48d42ac"></a>
+<a id="org7261216"></a>
 
 # Images
 
 
-<a id="orga9eaddd"></a>
+<a id="org98852f4"></a>
 
 # Schematic
 
 
-<a id="orga905c0e"></a>
+<a id="orgfe9cefc"></a>
 
 # PCB
 
 
-<a id="org6486593"></a>
+<a id="orga00b9d5"></a>
 
 # Bill of Materials
 
@@ -68,7 +69,7 @@
 |---- |----------- |------------------------ |------------ |-------- |
 
 
-<a id="org1d60145"></a>
+<a id="org252d51a"></a>
 
 # Notes
 
@@ -118,7 +119,7 @@ MiSUMi D2F-01FL
 -   Normally open or normally closed
 
 
-<a id="org51e40ba"></a>
+<a id="orgeca6f45"></a>
 
 # Development
 

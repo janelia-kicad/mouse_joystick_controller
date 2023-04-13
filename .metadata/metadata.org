@@ -34,8 +34,9 @@ Janelia mouse joystick controller for the Dudman lab experiments.
 https://www.kicad.org/
 https://www.transducertechniques.com/rts-torque-sensor.aspx
 https://placidindustries.com/products/brakes/magnetic-particle-brakes/magnetic-particle-brake-b5z/
-https://www.linengineering.com/products/stepper-motors/hybrid-stepper-motors/208-series/208-13-01/WO-208-13-01D
 https://www.newark.com/broadcom-limited/hedr-5421-ep111/encoder-incremental-2-ch/dp/58Y4773
+https://www.linengineering.com/products/stepper-motors/hybrid-stepper-motors/208-series/208-13-01/WO-208-13-01D
+https://www.pololu.com/product/2267
 #+END_SRC
 
 #+NAME: creation-date
