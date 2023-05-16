@@ -44,6 +44,11 @@ https://www.pololu.com/product/2267
 2017-08-14
 #+END_SRC
 
+#+NAME: kicad-version
+#+BEGIN_SRC text :exports none :noweb yes
+7.0.2
+#+END_SRC
+
 * General and Derived Variables                                    :noexport:
 
 #+NAME: release-month-day
@@ -124,11 +129,6 @@ Howard Hughes Medical Institute
 #+NAME: copyright
 #+BEGIN_SRC text :exports none :noweb yes
 <<release-year()>> <<affiliation>>
-#+END_SRC
-
-#+NAME: kicad-version
-#+BEGIN_SRC text :exports none :noweb yes
-7.0.1
 #+END_SRC
 
 #+NAME: programming-language
@@ -350,7 +350,7 @@ exit
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
         (commit
-          "6311493d7a6271bfbc51f4693857f9a12fe9965d")
+          "8659f5e3ee1872da0a853ca6f839eb6f90e10c3d")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
