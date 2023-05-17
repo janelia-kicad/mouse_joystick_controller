@@ -650,6 +650,14 @@
     [
       "77f41494-26e9-423c-a938-65116f1e9cbf",
       "driver_0"
+    ],
+    [
+      "588c1a3c-052e-4e39-a8d9-29d79b9f5498",
+      "brake"
+    ],
+    [
+      "f62b8726-10b6-4dce-a8d7-bdccf22557c3",
+      "power"
     ]
   ],
   "text_variables": {}
