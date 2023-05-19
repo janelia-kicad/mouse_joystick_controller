@@ -145,6 +145,23 @@
     (uuid f66c8b13-d1b2-46bb-8eee-a827a3b2852f)
   )
 
+  (sheet (at 217.17 57.15) (size 17.78 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0ca0d34b-2b7f-42eb-8f7f-77dbfc402b19)
+    (property "Sheetname" "audio" (at 217.17 56.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "audio.kicad_sch" (at 217.17 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mouse_joystick_controller"
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 182.88 57.15) (size 22.86 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

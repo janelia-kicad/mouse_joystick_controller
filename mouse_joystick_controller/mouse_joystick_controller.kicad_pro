@@ -658,6 +658,10 @@
     [
       "f62b8726-10b6-4dce-a8d7-bdccf22557c3",
       "power"
+    ],
+    [
+      "0ca0d34b-2b7f-42eb-8f7f-77dbfc402b19",
+      "audio"
     ]
   ],
   "text_variables": {}
