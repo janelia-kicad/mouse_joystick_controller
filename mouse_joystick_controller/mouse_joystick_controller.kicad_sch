@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-05-18")
+    (date "2023-05-22")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -162,15 +162,44 @@
     )
   )
 
-  (sheet (at 182.88 57.15) (size 22.86 17.78) (fields_autoplaced)
+  (sheet (at 217.17 82.55) (size 21.59 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0dc4b24f-fc1d-4772-a864-e4cea09ee9b2)
+    (property "Sheetname" "lickport" (at 217.17 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "lickport.kicad_sch" (at 217.17 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mouse_joystick_controller"
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 182.88 57.15) (size 22.86 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 588c1a3c-052e-4e39-a8d9-29d79b9f5498)
     (property "Sheetname" "brake" (at 182.88 56.4384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "brake.kicad_sch" (at 182.88 75.5146 0)
+    (property "Sheetfile" "brake.kicad_sch" (at 182.88 70.4346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "GND" passive (at 182.88 62.23 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid e80d0236-fc5d-4bc0-9b60-d9211e396cbd)
+    )
+    (pin "+24V" passive (at 182.88 59.69 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4a43332a-e14b-4a2a-b7ae-7d8ba5c859ec)
+    )
+    (pin "BRAKE_PWM" input (at 182.88 67.31 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 9bed667c-5728-4755-a9b6-bccedfd42b1c)
     )
     (instances
       (project "mouse_joystick_controller"
@@ -240,6 +269,40 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 182.88 82.55) (size 22.86 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b0ea6103-1b85-4f11-9b33-df89645fe9c7)
+    (property "Sheetname" "torque_sensor" (at 182.88 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "torque_sensor.kicad_sch" (at 182.88 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mouse_joystick_controller"
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 182.88 118.11) (size 17.78 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b6383087-6d4d-4a41-85bb-6ffc362d3503)
+    (property "Sheetname" "encoder" (at 182.88 117.3984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "encoder.kicad_sch" (at 182.88 133.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mouse_joystick_controller"
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4" (page "8"))
       )
     )
   )

@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-05-18")
+    (date "2023-05-22")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -46,13 +46,11 @@
       (property "ki_description" "IC REG LINEAR 3.3V 150MA 6WSON" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "CONV_DC_DC_3.3V_150MA_0_1"
+      (symbol "CONV_DC_DC_3.3V_150MA_1_1"
         (rectangle (start -7.62 1.27) (end 7.62 -6.35)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
-      )
-      (symbol "CONV_DC_DC_3.3V_150MA_1_1"
         (pin power_out line (at 12.7 0 180) (length 5.08)
           (name "OUT" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))

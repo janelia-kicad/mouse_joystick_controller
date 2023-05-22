@@ -662,6 +662,18 @@
     [
       "0ca0d34b-2b7f-42eb-8f7f-77dbfc402b19",
       "audio"
+    ],
+    [
+      "b0ea6103-1b85-4f11-9b33-df89645fe9c7",
+      "torque_sensor"
+    ],
+    [
+      "b6383087-6d4d-4a41-85bb-6ffc362d3503",
+      "encoder"
+    ],
+    [
+      "0dc4b24f-fc1d-4772-a864-e4cea09ee9b2",
+      "lickport"
     ]
   ],
   "text_variables": {}
