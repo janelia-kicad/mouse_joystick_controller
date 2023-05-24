@@ -648,8 +648,8 @@
       "assembly"
     ],
     [
-      "77f41494-26e9-423c-a938-65116f1e9cbf",
-      "driver_0"
+      "96b3c3dd-c6d5-4b8a-8fed-5357a4b27c3d",
+      "controller"
     ],
     [
       "588c1a3c-052e-4e39-a8d9-29d79b9f5498",
@@ -674,6 +674,14 @@
     [
       "0dc4b24f-fc1d-4772-a864-e4cea09ee9b2",
       "lickport"
+    ],
+    [
+      "00ddb26d-3c3d-4d0a-ba57-4e869ccb03df",
+      "driver_0"
+    ],
+    [
+      "3f8159dc-67a5-444d-b436-868704b45f22",
+      "motors"
     ]
   ],
   "text_variables": {}

@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-05-22")
+    (date "2023-05-24")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -2016,7 +2016,7 @@
   (symbol (lib_id "Janelia:Conn_FFC_20_Pin_1mm_bottom-ZF1-20-01-T-WT-TR") (at 259.08 99.06 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03f4d7c6-33a3-440d-88f1-f7c3d2dfcb76)
-    (property "Reference" "J1" (at 260.35 98.425 0)
+    (property "Reference" "J2" (at 260.35 98.425 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_FFC_20_Pin_1mm_bottom-ZF1-20-01-T-WT-TR" (at 259.08 71.12 0)
@@ -2065,8 +2065,8 @@
     (pin "9" (uuid 30f799ff-b2ee-4dd2-8ff4-1a50b0dd95fd))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "J1") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2075,7 +2075,7 @@
   (symbol (lib_id "Janelia:LVDS_4-4_HALF_DS91M040TSQE") (at 99.06 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05a661fa-a87d-442f-8dbb-b5a8d84a1767)
-    (property "Reference" "U1" (at 109.22 35.56 0) (do_not_autoplace)
+    (property "Reference" "U3" (at 109.22 35.56 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LVDS_4-4_HALF_DS91M040TSQE" (at 99.06 -1.27 0)
@@ -2140,8 +2140,8 @@
     (pin "9" (uuid b07bb1dd-13dc-451b-a7e5-8f59021b3e0a))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "U1") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2150,7 +2150,7 @@
   (symbol (lib_id "Janelia:R_100_0402") (at 171.45 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30e2570f-f59b-43d9-99cc-38544a294877)
-    (property "Reference" "R5" (at 172.72 137.16 0)
+    (property "Reference" "R6" (at 172.72 137.16 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "100" (at 171.45 137.16 90)
@@ -2184,8 +2184,8 @@
     (pin "2" (uuid ba497e6e-7f41-4ff5-bfd7-d89a345160c5))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "R5") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2194,7 +2194,7 @@
   (symbol (lib_id "Janelia:R_100_0402") (at 186.69 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3227c228-4934-45b2-8e0c-a6397e29ae72)
-    (property "Reference" "R7" (at 187.96 137.16 0)
+    (property "Reference" "R8" (at 187.96 137.16 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "100" (at 186.69 137.16 90)
@@ -2228,8 +2228,8 @@
     (pin "2" (uuid a8529679-b714-486c-bd84-feeec72a4742))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "R7") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2275,8 +2275,8 @@
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4"
           (reference "C4") (unit 1)
         )
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "C1") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2285,7 +2285,7 @@
   (symbol (lib_id "Janelia:R_100_0402") (at 91.44 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b8f3c1c-f349-4b0c-b814-183ebc2595fb)
-    (property "Reference" "R1" (at 92.71 137.16 0)
+    (property "Reference" "R2" (at 92.71 137.16 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "100" (at 91.44 137.16 90)
@@ -2319,8 +2319,8 @@
     (pin "2" (uuid 4904ae7c-89f0-44cc-9d12-c37b78c40246))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "R1") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2366,8 +2366,8 @@
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4"
           (reference "C4") (unit 1)
         )
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "C2") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2376,7 +2376,7 @@
   (symbol (lib_id "Janelia:LVDS_4-4_HALF_DS91M040TSQE") (at 179.07 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77196d2a-211a-46ac-be9b-2f45d8bcdcb0)
-    (property "Reference" "U2" (at 189.23 35.56 0) (do_not_autoplace)
+    (property "Reference" "U4" (at 189.23 35.56 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LVDS_4-4_HALF_DS91M040TSQE" (at 179.07 -1.27 0)
@@ -2441,8 +2441,8 @@
     (pin "9" (uuid f64a9398-85df-416a-badc-d79fa53a16c3))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "U2") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2451,7 +2451,7 @@
   (symbol (lib_id "Janelia:R_100_0402") (at 106.68 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 824093a3-950a-473d-a192-65431cf7a757)
-    (property "Reference" "R3" (at 107.95 137.16 0)
+    (property "Reference" "R4" (at 107.95 137.16 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "100" (at 106.68 137.16 90)
@@ -2485,8 +2485,8 @@
     (pin "2" (uuid d058a69a-c900-4864-998a-15774d81050c))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "R3") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2495,7 +2495,7 @@
   (symbol (lib_id "Janelia:R_100_0402") (at 179.07 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9430c610-33d4-4d79-bb99-4ed372a6ac73)
-    (property "Reference" "R6" (at 180.34 137.16 0)
+    (property "Reference" "R7" (at 180.34 137.16 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "100" (at 179.07 137.16 90)
@@ -2529,8 +2529,8 @@
     (pin "2" (uuid 4493a875-436e-4f54-94a6-ee5fbde780bd))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "R6") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2539,7 +2539,7 @@
   (symbol (lib_id "Janelia:R_100_0402") (at 99.06 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad2baa9d-b98f-4827-a920-b9c66ccd4867)
-    (property "Reference" "R2" (at 100.33 137.16 0)
+    (property "Reference" "R3" (at 100.33 137.16 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "100" (at 99.06 137.16 90)
@@ -2573,8 +2573,8 @@
     (pin "2" (uuid 6e9f7640-9dd9-454b-939f-4d5cb66b3a00))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "R2") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2583,7 +2583,7 @@
   (symbol (lib_id "Janelia:R_100_0402") (at 194.31 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1d80000-8b2d-44aa-a0e2-88d4795e29c6)
-    (property "Reference" "R8" (at 195.58 137.16 0)
+    (property "Reference" "R9" (at 195.58 137.16 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "100" (at 194.31 137.16 90)
@@ -2617,8 +2617,8 @@
     (pin "2" (uuid b4920469-f4d0-47f4-9827-13308676da88))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "R8") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2627,7 +2627,7 @@
   (symbol (lib_id "Janelia:R_100_0402") (at 114.3 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0d81ad7-8475-484b-93cb-1ba123752acb)
-    (property "Reference" "R4" (at 115.57 137.16 0)
+    (property "Reference" "R5" (at 115.57 137.16 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "100" (at 114.3 137.16 90)
@@ -2661,8 +2661,8 @@
     (pin "2" (uuid 47484031-46fd-48b7-bf53-185de7088073))
     (instances
       (project "mouse_joystick_controller"
-        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/77f41494-26e9-423c-a938-65116f1e9cbf"
-          (reference "R4") (unit 1)
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
+          (reference "R5") (unit 1)
         )
       )
     )

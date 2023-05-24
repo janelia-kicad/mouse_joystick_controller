@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-05-22")
+    (date "2023-05-24")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -426,7 +426,7 @@
           (reference "C6") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/f62b8726-10b6-4dce-a8d7-bdccf22557c3"
-          (reference "C4") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -473,7 +473,7 @@
           (reference "C7") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/f62b8726-10b6-4dce-a8d7-bdccf22557c3"
-          (reference "C3") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -482,7 +482,7 @@
   (symbol (lib_id "Janelia:PWR_JACK_2.1x5.5_SMD_RA") (at 102.87 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf1b5b4d-2b6c-4e2e-8daf-7a7693233d3d)
-    (property "Reference" "P?" (at 102.87 59.69 0)
+    (property "Reference" "P1" (at 102.87 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PWR_JACK_2.1x5.5_SMD_RA" (at 100.33 63.5 90)
@@ -514,7 +514,7 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/f62b8726-10b6-4dce-a8d7-bdccf22557c3"
-          (reference "P?") (unit 1)
+          (reference "P1") (unit 1)
         )
       )
     )

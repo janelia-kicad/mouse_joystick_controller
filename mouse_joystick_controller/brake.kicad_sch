@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-05-22")
+    (date "2023-05-24")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -485,7 +485,7 @@
           (reference "R9") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/588c1a3c-052e-4e39-a8d9-29d79b9f5498"
-          (reference "R9") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -494,7 +494,7 @@
   (symbol (lib_id "Janelia:Conn_TERM_HDR_01x02_Pin_3.5MM_Horizontal") (at 190.5 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b26ff359-5513-48cf-ae4e-43bc715ba6fb)
-    (property "Reference" "J2" (at 189.23 90.805 0)
+    (property "Reference" "J1" (at 189.23 90.805 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_TERM_HDR_01x02_Pin_3.5MM_Horizontal" (at 190.5 102.87 0)
@@ -526,7 +526,7 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/588c1a3c-052e-4e39-a8d9-29d79b9f5498"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )

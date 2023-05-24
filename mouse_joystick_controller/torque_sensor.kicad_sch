@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-05-22")
+    (date "2023-05-24")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -202,7 +202,7 @@
   (symbol (lib_id "Janelia:PGA305ARHHR") (at 143.51 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbfe11f0-4d2f-43de-a877-8443012fe520)
-    (property "Reference" "U?" (at 158.75 71.12 0) (do_not_autoplace)
+    (property "Reference" "U2" (at 158.75 71.12 0) (do_not_autoplace)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "PGA305ARHHR" (at 143.51 88.9 0)
@@ -258,7 +258,7 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/b0ea6103-1b85-4f11-9b33-df89645fe9c7"
-          (reference "U?") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )

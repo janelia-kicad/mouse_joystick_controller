@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "mouse_joystick_controller")
+    (date "2023-05-24")
+    (rev "2.0")
+    (company "Howard Hughes Medical Institute")
+  )
+
   (lib_symbols
   )
 
