@@ -129,6 +129,26 @@
     )
   )
 
+  (sheet (at 52.07 64.77) (size 30.48 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6a52ceec-773f-4608-99f1-9264727759c9)
+    (property "Sheetname" "microcontroller" (at 52.07 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "microcontroller.kicad_sch" (at 52.07 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 52.07 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "mouse_joystick_controller"
+        (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4" (page "12"))
+      )
+    )
+  )
+
   (sheet (at 182.88 82.55) (size 22.86 24.13) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

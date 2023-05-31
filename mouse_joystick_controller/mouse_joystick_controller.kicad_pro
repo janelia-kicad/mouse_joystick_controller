@@ -682,6 +682,10 @@
     [
       "3f8159dc-67a5-444d-b436-868704b45f22",
       "motors"
+    ],
+    [
+      "6a52ceec-773f-4608-99f1-9264727759c9",
+      "microcontroller"
     ]
   ],
   "text_variables": {}
