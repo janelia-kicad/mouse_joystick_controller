@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "mouse_joystick_controller")
+    (date "2023-06-02")
+    (rev "2.0")
+    (company "Howard Hughes Medical Institute")
+  )
+
   (lib_symbols
     (symbol "Janelia:TEENSY_4.1_HEADERS" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "TEENSY" (at 13.97 21.59 0)
