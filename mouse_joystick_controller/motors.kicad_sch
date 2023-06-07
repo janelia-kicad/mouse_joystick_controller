@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-06-06")
+    (date "2023-06-07")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -84,7 +84,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a38f1bac-4a72-4fa5-b7f4-f1a29e1b856b)
   )
-  (label "POWER_ENABLE_0" (at 186.69 67.31 180) (fields_autoplaced)
+  (label "STANDBY_0" (at 186.69 67.31 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a717bba2-88f8-47a1-8cbb-9f8aacbc4b0b)
   )
@@ -123,7 +123,7 @@
     (property "Sheetfile" "driver.kicad_sch" (at 189.23 70.4346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "POWER_ENABLE" input (at 189.23 67.31 180)
+    (pin "STANDBY" input (at 189.23 67.31 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 4929a4e8-ebc5-4b60-b2af-facc3bf3a738)
     )
