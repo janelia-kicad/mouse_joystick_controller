@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-06-07")
+    (date "2023-06-09")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -41,6 +41,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Vendor Part Number" "296-50279-1-ND" (at 0 43.18 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "PGA305ARHHR" (at 0 0 0)
@@ -202,7 +205,7 @@
   (symbol (lib_id "Janelia:PGA305ARHHR") (at 143.51 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbfe11f0-4d2f-43de-a877-8443012fe520)
-    (property "Reference" "U2" (at 158.75 71.12 0) (do_not_autoplace)
+    (property "Reference" "U5" (at 158.75 71.12 0) (do_not_autoplace)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "PGA305ARHHR" (at 143.51 88.9 0)
@@ -232,6 +235,9 @@
     (property "Vendor Part Number" "296-50279-1-ND" (at 143.51 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 143.51 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "10" (uuid c9a99443-acac-46f4-a69b-7b1064e67c13))
     (pin "11" (uuid 71a2ff39-5381-422d-be8c-72815ec8f739))
     (pin "12" (uuid 833c9d5c-845d-4cae-bff2-09924fb1004d))
@@ -258,7 +264,7 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/b0ea6103-1b85-4f11-9b33-df89645fe9c7"
-          (reference "U2") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )

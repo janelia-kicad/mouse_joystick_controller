@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-06-07")
+    (date "2023-06-09")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -104,6 +104,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Vendor Part Number" "SAM14906CT-ND" (at 0 31.75 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "connector" (at 0 0 0)
@@ -467,6 +470,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Vendor Part Number" "DS91M040TSQE/NOPBCT-ND" (at 0 50.8 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "Half duplex LVDS, 250 Mbps" (at 0 0 0)
@@ -1079,7 +1085,7 @@
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.016 1.016)))
       )
-      (property "Value" "100" (at 0.1778 0.0254 90)
+      (property "Value" "100" (at 0.1778 0.0254 90) (do_not_autoplace)
         (effects (font (size 1.016 1.016)))
       )
       (property "Footprint" "Janelia:R_0402_1005Metric" (at -1.778 0 90)
@@ -2016,7 +2022,7 @@
   (symbol (lib_id "Janelia:Conn_FFC_20_Pin_1mm_bottom-ZF1-20-01-T-WT-TR") (at 259.08 99.06 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03f4d7c6-33a3-440d-88f1-f7c3d2dfcb76)
-    (property "Reference" "J2" (at 260.35 98.425 0)
+    (property "Reference" "J4" (at 260.35 97.79 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_FFC_20_Pin_1mm_bottom-ZF1-20-01-T-WT-TR" (at 259.08 71.12 0)
@@ -2043,6 +2049,9 @@
     (property "Vendor Part Number" "SAM14906CT-ND" (at 259.08 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 259.08 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9c7627f4-34c0-451a-acf8-4fdaaa356bd8))
     (pin "10" (uuid a09b33b2-7e71-473a-819a-f3827cb6ed66))
     (pin "11" (uuid 24e3c538-73d0-4536-906a-ac1eaf6a69eb))
@@ -2066,7 +2075,7 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2075,7 +2084,7 @@
   (symbol (lib_id "Janelia:LVDS_4-4_HALF_DS91M040TSQE") (at 99.06 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05a661fa-a87d-442f-8dbb-b5a8d84a1767)
-    (property "Reference" "U3" (at 109.22 35.56 0) (do_not_autoplace)
+    (property "Reference" "U6" (at 109.22 35.56 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LVDS_4-4_HALF_DS91M040TSQE" (at 99.06 -1.27 0)
@@ -2103,6 +2112,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Vendor Part Number" "DS91M040TSQE/NOPBCT-ND" (at 99.06 16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 99.06 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 11913bb7-5d61-45da-b38e-920655795f06))
@@ -2141,7 +2153,7 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
-          (reference "U3") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2276,7 +2288,7 @@
           (reference "C4") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2367,7 +2379,7 @@
           (reference "C4") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2376,7 +2388,7 @@
   (symbol (lib_id "Janelia:LVDS_4-4_HALF_DS91M040TSQE") (at 179.07 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77196d2a-211a-46ac-be9b-2f45d8bcdcb0)
-    (property "Reference" "U4" (at 189.23 35.56 0) (do_not_autoplace)
+    (property "Reference" "U7" (at 189.23 35.56 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LVDS_4-4_HALF_DS91M040TSQE" (at 179.07 -1.27 0)
@@ -2404,6 +2416,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Vendor Part Number" "DS91M040TSQE/NOPBCT-ND" (at 179.07 16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 179.07 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6464709f-5721-4f01-9f85-163ca2e6df93))
@@ -2442,7 +2457,7 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/3f8159dc-67a5-444d-b436-868704b45f22/00ddb26d-3c3d-4d0a-ba57-4e869ccb03df"
-          (reference "U4") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )

@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-06-07")
+    (date "2023-06-09")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -183,6 +183,9 @@
       (property "Vendor Part Number" "277-2416-ND" (at 0 22.86 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (property "Sim.Enable" "0" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -228,8 +231,8 @@
       )
     )
     (symbol "Janelia:NCR421ZX" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 15.24 30.48 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Reference" "U" (at 0 10.16 0) (do_not_autoplace)
+        (effects (font (size 1.27 1.27)))
       )
       (property "Value" "NCR421ZX" (at 20.32 25.4 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -256,6 +259,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Vendor Part Number" "1727-8463-1-ND" (at 0 17.78 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "IC LED DRVR LIN PWM 150MA SOT223" (at 0 0 0)
@@ -677,7 +683,7 @@
   (symbol (lib_id "Janelia:NCR421ZX") (at 135.89 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60aa94f5-c8d5-4783-ae5d-adf6444a7285)
-    (property "Reference" "U5" (at 135.89 78.74 0)
+    (property "Reference" "U2" (at 135.89 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NCR421ZX" (at 156.21 63.5 0)
@@ -707,6 +713,9 @@
     (property "Vendor Part Number" "1727-8463-1-ND" (at 135.89 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 135.89 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ead88b0d-14ff-48af-a836-52411566aafe))
     (pin "2" (uuid e61bb52c-587e-48f6-828a-e8f329da24ce))
     (pin "3" (uuid 4446597a-c7e9-44eb-bc1a-861fc21c8d55))
@@ -714,7 +723,7 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/588c1a3c-052e-4e39-a8d9-29d79b9f5498"
-          (reference "U5") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -767,7 +776,7 @@
   (symbol (lib_id "Janelia:C_10uF_35V_0603") (at 113.03 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9de8d543-156c-44c0-a00e-1bfd5089c68a)
-    (property "Reference" "C6" (at 114.3 54.61 0)
+    (property "Reference" "C2" (at 114.3 54.61 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "10uF_35V" (at 113.03 57.15 0) (do_not_autoplace)
@@ -802,7 +811,7 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/588c1a3c-052e-4e39-a8d9-29d79b9f5498"
-          (reference "C6") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -811,8 +820,8 @@
   (symbol (lib_id "Janelia:Conn_TERM_HDR_01x02_Pin_3.5MM_Horizontal") (at 214.63 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b26ff359-5513-48cf-ae4e-43bc715ba6fb)
-    (property "Reference" "J1" (at 213.36 92.075 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Reference" "J1" (at 215.265 88.9 0)
+      (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_TERM_HDR_01x02_Pin_3.5MM_Horizontal" (at 214.63 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -838,6 +847,9 @@
     (property "Vendor Part Number" "277-2416-ND" (at 214.63 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 214.63 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8b1700c3-c6a5-4c77-82b4-4409a43b7253))
     (pin "2" (uuid 7aabd0fe-d84d-4a2e-bb09-5856162fc6d6))
     (instances
@@ -852,7 +864,7 @@
   (symbol (lib_id "Janelia:C_47uF_35V_2917_POL") (at 104.14 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e77ed3ac-bd95-40a7-8f53-a61406e69ac7)
-    (property "Reference" "C5" (at 104.775 54.61 0) (do_not_autoplace)
+    (property "Reference" "C1" (at 104.775 54.61 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF_35V" (at 104.14 57.15 0) (do_not_autoplace)
@@ -887,7 +899,7 @@
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/588c1a3c-052e-4e39-a8d9-29d79b9f5498"
-          (reference "C5") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )

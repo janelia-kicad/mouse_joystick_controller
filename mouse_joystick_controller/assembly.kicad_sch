@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-06-07")
+    (date "2023-06-09")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -23,6 +23,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "FIDUCIAL_0.5mm_MASK1mm_0_1"
@@ -144,6 +147,9 @@
     (property "Datasheet" "" (at 152.4 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 147.32 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/c94b08bd-a632-4542-a546-252a2d710203"
@@ -166,6 +172,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 172.72 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 167.64 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -192,6 +201,9 @@
     (property "Datasheet" "" (at 162.56 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 157.48 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/c94b08bd-a632-4542-a546-252a2d710203"
@@ -204,7 +216,7 @@
   (symbol (lib_id "Janelia:MOUNTING_HOLE_3") (at 147.32 106.68 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6526f8cc-ddae-4f1f-9e00-f73a748f81d1)
-    (property "Reference" "H2" (at 149.86 104.013 0)
+    (property "Reference" "H2" (at 149.86 103.378 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MOUNTING_HOLE_3" (at 147.32 114.3 0)
@@ -232,7 +244,7 @@
   (symbol (lib_id "Janelia:MOUNTING_HOLE_3") (at 167.64 106.68 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73ae8009-3d0a-4c70-b6ba-0dedb16e2bdc)
-    (property "Reference" "H4" (at 170.18 104.013 0)
+    (property "Reference" "H4" (at 170.18 103.378 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MOUNTING_HOLE_3" (at 167.64 114.3 0)
@@ -272,6 +284,9 @@
     (property "Datasheet" "" (at 142.24 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 137.16 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "mouse_joystick_controller"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/c94b08bd-a632-4542-a546-252a2d710203"
@@ -284,7 +299,7 @@
   (symbol (lib_id "Janelia:MOUNTING_HOLE_3") (at 137.16 106.68 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a16b924d-cf7f-442f-8c7a-26cec4a8e7b2)
-    (property "Reference" "H1" (at 139.7 104.013 0)
+    (property "Reference" "H1" (at 139.7 103.378 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MOUNTING_HOLE_3" (at 137.16 114.3 0)
@@ -312,7 +327,7 @@
   (symbol (lib_id "Janelia:MOUNTING_HOLE_3") (at 157.48 106.68 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d68283c3-37a1-40b7-82b0-22194b147263)
-    (property "Reference" "H3" (at 160.02 104.013 0)
+    (property "Reference" "H3" (at 160.02 103.378 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MOUNTING_HOLE_3" (at 157.48 114.3 0)
