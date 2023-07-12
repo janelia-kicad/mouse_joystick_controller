@@ -34,3 +34,5 @@ fp-info-cache
 
 # Freerouting
 *.bin
+
+*.lck
