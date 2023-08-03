@@ -260,7 +260,7 @@
       (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 6777d2ba-2f56-4afa-bb09-172545f81e73))
     (pad "1" thru_hole oval (at 0 0) (size 2.3 2.3) (drill 1.58) (layers "*.Cu" "*.Mask")
       (net 123 "/microcontroller/GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 4a218419-878b-4d24-add2-a31e7f0d5c5f))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/CONN_PIN_RCPT-0305-1-15.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/CONN_PIN_RCPT-0305-1-15.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -714,7 +714,7 @@
       (stroke (width 0.2) (type solid)) (fill none) (layer "F.Fab") (tstamp c5f62f1f-e610-46f7-9b92-55797aeaf597))
     (fp_circle (center 7.62 41.91) (end 8.62 41.91)
       (stroke (width 0.2) (type solid)) (fill none) (layer "F.Fab") (tstamp d4c7aefc-f7a5-42c1-8901-5f1477d9cb41))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/TEENSY_4.1_headers.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/TEENSY_4.1_headers.step"
       (offset (xyz 0 -12.7 3.29))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -180))
@@ -760,7 +760,7 @@
       (net 6 "/brake/BRAKE+") (pinfunction "Pin_1") (pintype "passive") (tstamp 22071916-b1ff-4d2c-8fa2-7d3199d5de7f))
     (pad "2" thru_hole circle (at -1.75 0) (size 2.2 2.2) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 7 "/brake/BRAKE-") (pinfunction "Pin_2") (pintype "passive") (tstamp e37bdf00-eea8-4038-a855-b6a8f9cb7b20))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/1844210.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/1844210.step"
       (offset (xyz 4.06 8 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -882,7 +882,7 @@
       (net 2 "/GND") (pintype "passive") (tstamp 64a919cd-d4b8-4225-85d2-dd2c49e35c96))
     (pad "3" smd rect (at 6.2 5.5) (size 2 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 25 "unconnected-(J2-Pad3)") (pintype "passive+no_connect") (tstamp 0d2c232c-2835-47c5-9da9-f5ae9752e2a8))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/CONN_54-00165.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/CONN_54-00165.step"
       (offset (xyz 16.25 -9.72 -5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -980,7 +980,7 @@
       (net 6 "/brake/BRAKE+") (pintype "passive") (tstamp 1434d77c-6007-4db3-abf2-27f289ff1649))
     (pad "2" smd roundrect (at 3.1125 0) (size 2.075 2.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.120482)
       (net 23 "/brake/GND") (pintype "passive") (tstamp cd6fd5ad-77a1-4695-8d47-7a9c0a98f6e0))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/CP_EIA-7343-43_Kemet-X.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/CP_EIA-7343-43_Kemet-X.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1039,7 +1039,7 @@
       (net 3 "/power/3.3V") (pintype "passive") (tstamp b567fbba-fd8b-4ba5-89d5-a7ce39b189ec))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "/GND") (pintype "passive") (tstamp bc5d3cf8-a619-4b1c-9271-93cecd231ece))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/C_0603_1608Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1097,7 +1097,7 @@
       (net 18 "/motors/driver_0/DIR_A") (pintype "passive") (tstamp 4a865d15-738e-4d4b-a1dc-b96eefe6a371))
     (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 19 "/motors/driver_0/DIR_B") (pintype "passive") (tstamp 8709840b-e148-46c6-bad8-1dd188a449e8))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/R_0402_1005Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/R_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1156,7 +1156,7 @@
       (net 6 "/brake/BRAKE+") (pintype "passive") (tstamp 39eda231-b501-4285-a6ae-801ae39b14c5))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 23 "/brake/GND") (pintype "passive") (tstamp b3122b42-6d32-45e6-96e1-81736ccdba12))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/C_0603_1608Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1194,7 +1194,7 @@
       (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 4f090af9-733d-465d-8e35-818965097fce))
     (pad "1" thru_hole oval (at 0 0) (size 2.3 2.3) (drill 1.58) (layers "*.Cu" "*.Mask")
       (net 124 "/microcontroller/D0") (pinfunction "Pin_1") (pintype "passive") (tstamp 0ffb026e-e5f6-4090-bc2c-96cb9feab96b))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/CONN_PIN_RCPT-0305-1-15.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/CONN_PIN_RCPT-0305-1-15.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1253,7 +1253,7 @@
       (net 72 "/brake/R_EXT") (pintype "passive") (tstamp fc53b757-7633-4360-9854-c661c8d9bf9e))
     (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 23 "/brake/GND") (pintype "passive") (tstamp 07a77995-85a4-436d-961e-169fa757ae45))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/R_0402_1005Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/R_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1312,7 +1312,7 @@
       (net 4 "/motors/+3.3V") (pintype "passive") (tstamp 2b991d29-6e9c-4f1d-99cf-34903ab056ec))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "/motors/GND") (pintype "passive") (tstamp 803736c7-c22e-4191-a111-701176834481))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/C_0603_1608Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1420,7 +1420,7 @@
       (net 20 "/motors/driver_0/STEP_A") (pinfunction "Pin_19") (pintype "passive") (tstamp e5e677ec-15e8-4ee1-8137-80ecabfba2ad))
     (pad "20" smd rect (at 9.5 0) (size 0.6 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 21 "/motors/driver_0/STEP_B") (pinfunction "Pin_20") (pintype "passive") (tstamp c94d7f73-e066-42fe-a841-5e8ba7f892a9))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/ZF1-20-01-X-WT-X.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/ZF1-20-01-X-WT-X.step"
       (offset (xyz 0 -6.75 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1632,7 +1632,7 @@
       (net 105 "unconnected-(U5-PAD-Pad37)") (pinfunction "PAD") (pintype "unspecified") (tstamp aae17334-e40d-4616-a01e-012bb001f220))
     (pad "37" thru_hole circle (at 1.950001 0.715) (size 0.499999 0.499999) (drill 0.2032) (layers "*.Cu" "*.Mask")
       (net 105 "unconnected-(U5-PAD-Pad37)") (pinfunction "PAD") (pintype "unspecified") (tstamp a163844f-6ec4-4248-9266-37e933f9cf17))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/RHH0036C.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/RHH0036C.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1770,7 +1770,7 @@
     (pad "11" smd roundrect (at 0 0) (size 1.65 2.38) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (chamfer_ratio 0.2) (chamfer top_left)
       (net 84 "unconnected-(U4-PAD-Pad11)") (pinfunction "PAD") (pintype "passive") (tstamp 0ec32050-6d67-4ea0-9374-7a09873036bd))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/DFN-10_DD_LIT.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/DFN-10_DD_LIT.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1829,7 +1829,7 @@
       (net 1 "/+24V") (pintype "passive") (tstamp 0607651f-f035-4c1d-880b-42e697d714a6))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "/GND") (pintype "passive") (tstamp 2a10268b-4161-44b7-9875-6fdb4a3cc75b))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/C_0603_1608Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1887,7 +1887,7 @@
       (net 12 "/motors/driver_0/~{DRIVER_ENABLE_A}") (pintype "passive") (tstamp e9926c99-6300-41e3-a1b0-c572440914c8))
     (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "/motors/driver_0/~{DRIVER_ENABLE_B}") (pintype "passive") (tstamp 379be2dc-e12e-438a-b14a-0ed06226fc58))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/R_0402_1005Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/R_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1951,7 +1951,7 @@
       (net 23 "/brake/GND") (pinfunction "GND") (pintype "passive") (tstamp 0da2d16e-be67-4a6b-8161-b19156a9e62d))
     (pad "4" smd rect (at 3.05 0) (size 1.2 3.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "/brake/BRAKE-") (pinfunction "IOUT") (pintype "passive") (tstamp 2030bf65-884c-44ef-b664-33225f82b41f))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/SOT-223.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/SOT-223.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2043,7 +2043,7 @@
       (net 14 "/motors/driver_0/UART_A") (pintype "passive") (tstamp ae496ca8-719a-4c61-94de-92bf6c9d9411))
     (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "/motors/driver_0/UART_B") (pintype "passive") (tstamp e1f67ceb-af66-42a4-b0cb-dab52ea54988))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/R_0402_1005Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/R_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2239,7 +2239,7 @@
       (net 8 "/motors/driver_0/REFR_A") (pintype "passive") (tstamp 15508474-d0e9-4435-a404-0cb9424f6e8f))
     (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "/motors/driver_0/REFR_B") (pintype "passive") (tstamp cd8476b9-b85c-4e8c-b8d6-438b4495bac9))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/R_0402_1005Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/R_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2297,7 +2297,7 @@
       (net 70 "/motors/driver_0/STANDBY_A") (pintype "passive") (tstamp 4e1fca57-42e7-4440-a3b5-3d04bf7575e1))
     (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 71 "/motors/driver_0/STANDBY_B") (pintype "passive") (tstamp 0f425826-332c-4762-ad46-ae532e419f04))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/R_0402_1005Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/R_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2694,7 +2694,7 @@
     (pad "33" smd roundrect (at 0 0) (size 3.1 3.1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.05)
       (chamfer_ratio 0.1) (chamfer top_left)
       (net 5 "/motors/GND") (pinfunction "PAD") (pintype "power_in") (tstamp e3faec65-0a95-424c-93ac-e9ff52cbbf54))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/RTV0032A.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/RTV0032A.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2752,7 +2752,7 @@
       (net 16 "/motors/driver_0/~{UART_TX_ENABLE_A}") (pintype "passive") (tstamp c773af31-f0e1-4195-ae12-d703a0d48d9c))
     (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 17 "/motors/driver_0/~{UART_TX_ENABLE_B}") (pintype "passive") (tstamp dc9acea9-b23f-43ca-a378-e74b87b9d944))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/R_0402_1005Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/R_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2804,7 +2804,7 @@
       (net 65 "unconnected-(XTAL1-OUT-Pad3)") (pinfunction "OUT") (pintype "output") (tstamp a85b1e53-9031-4fac-88b5-879eb272f744))
     (pad "4" smd rect (at -0.65 -0.5) (size 0.75 0.65) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 66 "unconnected-(XTAL1-Vcc-Pad4)") (pinfunction "Vcc") (pintype "power_in") (tstamp cb88920a-fe3f-4f06-a895-ade04e0371af))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/831068248.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/831068248.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2863,7 +2863,7 @@
       (net 4 "/motors/+3.3V") (pintype "passive") (tstamp 7ec779fa-db79-4055-800c-4e076c23a28d))
     (pad "2" smd roundrect (at 0.775 0) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "/motors/GND") (pintype "passive") (tstamp 7df4fe4b-6cd8-4674-b3d2-6232607facb1))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/C_0603_1608Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/C_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2940,7 +2940,7 @@
       (net 2 "/GND") (pinfunction "PAD") (pintype "passive") (tstamp ef7eac90-9ba4-42af-87ce-6d62a523ddce))
     (pad "7" thru_hole circle (at 0 0.55) (size 0.5 0.5) (drill 0.2) (layers "*.Cu" "*.Mask")
       (net 2 "/GND") (pinfunction "PAD") (pintype "passive") (tstamp d0f0b4c9-dd28-46c1-bf50-914d0a0056f5))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/TPS70933DRVR.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/TPS70933DRVR.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -3062,7 +3062,7 @@
       (net 2 "/GND") (pintype "passive") (tstamp c97eb118-6766-48b1-bb34-268ea15c6344))
     (pad "3" smd rect (at 6.2 5.5) (size 2 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 68 "unconnected-(J3-Pad3)") (pintype "passive+no_connect") (tstamp 9af315d9-fd41-45a7-8bc6-43b285be7d75))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/CONN_54-00164.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/CONN_54-00164.step"
       (offset (xyz 16.25 -9.72 -5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -3459,7 +3459,7 @@
     (pad "33" smd roundrect (at 0 0) (size 3.1 3.1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.05)
       (chamfer_ratio 0.1) (chamfer top_left)
       (net 5 "/motors/GND") (pinfunction "PAD") (pintype "power_in") (tstamp bcb17d60-e83a-4eb1-b6ab-263554c68c31))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/RTV0032A.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/RTV0032A.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3551,7 +3551,7 @@
       (net 10 "/motors/driver_0/REF_A") (pintype "passive") (tstamp b39404bf-e762-473c-80a9-1661d926a2f8))
     (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "/motors/driver_0/REF_B") (pintype "passive") (tstamp bdfbbf50-d37d-48a9-b3a5-fa6e04297319))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/R_0402_1005Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/R_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3609,7 +3609,7 @@
       (net 20 "/motors/driver_0/STEP_A") (pintype "passive") (tstamp acf3cc17-2d35-4951-9296-216044031eac))
     (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 21 "/motors/driver_0/STEP_B") (pintype "passive") (tstamp 35e19cfb-a0c8-47b6-a702-cf487815218c))
-    (model "${KICAD_USER_DIR}/packages3D/Janelia.3dshapes/R_0402_1005Metric.step"
+    (model "${KICAD_USER_DIR}/3dmodels/Janelia.3dshapes/R_0402_1005Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
