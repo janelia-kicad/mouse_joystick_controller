@@ -6,7 +6,7 @@
 
   (title_block
     (title "mouse_joystick_controller")
-    (date "2023-07-12")
+    (date "2023-10-13")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -671,7 +671,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid aeb8e58c-8b38-4356-882e-eb5b84334f61)
   )
-  (hierarchical_label "+30V" (shape passive) (at 46.99 88.9 180) (fields_autoplaced)
+  (hierarchical_label "+24V" (shape passive) (at 46.99 88.9 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f254bad6-743d-4aae-be9f-34dfe5385660)
   )
