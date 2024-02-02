@@ -1,16 +1,16 @@
-- [About](#org2c00b0b)
-- [Images](#org85eae46)
-- [Schematic](#orgbcdeb5b)
-- [PCB](#org0261ced)
-- [Bill of Materials](#orgb93eb3f)
-- [Notes](#org149dfec)
-- [Development](#orgf21b1ea)
+- [About](#orga41f441)
+- [Images](#org27b9c2d)
+- [Schematic](#org0fa77e9)
+- [PCB](#org050fcea)
+- [Bill of Materials](#orga8858a8)
+- [Notes](#orgce7e649)
+- [Development](#org94b695f)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org2c00b0b"></a>
+<a id="orga41f441"></a>
 
 # About
 
@@ -18,14 +18,14 @@
 - Project Name: mouse_joystick_controller
 - Description: Janelia mouse joystick controller for the Dudman lab experiments.
 - Version: 2.0
-- Kicad Version: 7.0.8
-- Release Date: 2023-10-12
+- Kicad Version: 7.0.10
+- Release Date: 2024-02-02
 - Creation Date: 2017-08-14
 - License: BSD-3-Clause
 - URL: https://github.com/janelia-kicad/mouse_joystick_controller
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
-- Copyright: 2023 Howard Hughes Medical Institute
+- Copyright: 2024 Howard Hughes Medical Institute
 - References:
   - https://www.kicad.org/
   - https://www.transducertechniques.com/rts-torque-sensor.aspx
@@ -36,22 +36,22 @@
 ```
 
 
-<a id="org85eae46"></a>
+<a id="org27b9c2d"></a>
 
 # Images
 
 
-<a id="orgbcdeb5b"></a>
+<a id="org0fa77e9"></a>
 
 # Schematic
 
 
-<a id="org0261ced"></a>
+<a id="org050fcea"></a>
 
 # PCB
 
 
-<a id="orgb93eb3f"></a>
+<a id="orga8858a8"></a>
 
 # Bill of Materials
 
@@ -69,7 +69,7 @@
 |---- |----------- |------------------------ |------------ |-------- |
 
 
-<a id="org149dfec"></a>
+<a id="orgce7e649"></a>
 
 # Notes
 
@@ -119,7 +119,7 @@ MiSUMi D2F-01FL
 -   Normally open or normally closed
 
 
-<a id="orgf21b1ea"></a>
+<a id="org94b695f"></a>
 
 # Development
 
