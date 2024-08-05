@@ -17,4 +17,17 @@
    "inkscape"
    "python"
    "python-ipython"
-   "python-kicad-bom"))
+   "python-kicad-bom"
+   "dosbox"
+   "freecad"
+   "font-orbitron"
+   "zip"
+   "pandoc"
+   "texlive-scheme-basic"
+   "texlive-adjustbox"
+   "texlive-booktabs"
+   "texlive-siunitx"
+   "texlive-graphics"
+   "texlive-geometry"
+   "texlive-ulem"
+   "libxslt"))

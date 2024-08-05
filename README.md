@@ -1,16 +1,16 @@
-- [About](#orga41f441)
-- [Images](#org27b9c2d)
-- [Schematic](#org0fa77e9)
-- [PCB](#org050fcea)
-- [Bill of Materials](#orga8858a8)
-- [Notes](#orgce7e649)
-- [Development](#org94b695f)
+- [About](#orgbfb5ebf)
+- [Images](#org912eb98)
+- [Schematic](#org0782f5f)
+- [PCB](#org14a825d)
+- [Bill of Materials](#orgcd1d3bb)
+- [Notes](#org100e3b2)
+- [Development](#orga0ec191)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orga41f441"></a>
+<a id="orgbfb5ebf"></a>
 
 # About
 
@@ -18,8 +18,8 @@
 - Project Name: mouse_joystick_controller
 - Description: Janelia mouse joystick controller for the Dudman lab experiments.
 - Version: 2.0
-- Kicad Version: 7.0.10
-- Release Date: 2024-02-02
+- Kicad Version: 7.0.11
+- Release Date: 2024-08-05
 - Creation Date: 2017-08-14
 - License: BSD-3-Clause
 - URL: https://github.com/janelia-kicad/mouse_joystick_controller
@@ -36,22 +36,22 @@
 ```
 
 
-<a id="org27b9c2d"></a>
+<a id="org912eb98"></a>
 
 # Images
 
 
-<a id="org0fa77e9"></a>
+<a id="org0782f5f"></a>
 
 # Schematic
 
 
-<a id="org050fcea"></a>
+<a id="org14a825d"></a>
 
 # PCB
 
 
-<a id="orga8858a8"></a>
+<a id="orgcd1d3bb"></a>
 
 # Bill of Materials
 
@@ -69,7 +69,7 @@
 |---- |----------- |------------------------ |------------ |-------- |
 
 
-<a id="orgce7e649"></a>
+<a id="org100e3b2"></a>
 
 # Notes
 
@@ -119,7 +119,7 @@ MiSUMi D2F-01FL
 -   Normally open or normally closed
 
 
-<a id="org94b695f"></a>
+<a id="orga0ec191"></a>
 
 # Development
 
@@ -131,15 +131,15 @@ MiSUMi D2F-01FL
 
 ## Edit metadata.org
 
-    make -f .metadata/Makefile metadata-edits
+    make metadata-edits
 
 
 ## Tangle metadata.org
 
-    make -f .metadata/Makefile metadata
+    make metadata
 
 
 ## Edit project
 
-    make -f .metadata/Makefile kicad-edits
+    make kicad-edits
     exit
